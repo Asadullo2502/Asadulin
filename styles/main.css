@@ -947,4 +947,173 @@ h1, h2, h3, h4, h5, h6, p, a {
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+@media only screen and (max-width: 576px) {
+  .container {
+    max-width: 576px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .header-inner-items:nth-child(2) {
+    display: none;
+  }
+  .section1,
+  .section2,
+  .section3,
+  .section4,
+  .section5,
+  .section7 {
+    height: 500px;
+  }
+  .section6 {
+    height: 1080px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section6-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section6-inner-form {
+    background: rgba(4, 41, 88, 0.534);
+    border: 2px solid darkblue;
+    -webkit-box-shadow: 0 5px 100px darkblue;
+            box-shadow: 0 5px 100px darkblue;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding: 50px;
+    position: relative;
+  }
+  .section6-inner-form .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section6-inner-form .sum {
+    display: block;
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    border-radius: 40px;
+  }
+  .section6-inner-form h2 {
+    background-color: white;
+    display: block;
+    width: 100px;
+  }
+  .section6-inner-form label {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  .section6-inner-form input {
+    background: white;
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    padding: 0 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(0, 0, 139, 0.644);
+    margin-bottom: 40px;
+  }
+  .section6-inner-form input:focus {
+    outline: none;
+  }
+  .section6-inner-form select {
+    padding: 8px;
+    border-radius: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    width: 100%;
+  }
+  .section6-inner-form select option {
+    font-weight: 700;
+  }
+  .section6-inner-form select:focus {
+    outline: none;
+  }
+  .section6-inner-form button {
+    border: 2px solid darkblue;
+    background-color: darkblue;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 20px;
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    left: 0px;
+    display: inline-block;
+    margin-top: 30px;
+  }
+  .section6-inner-form button:hover {
+    background-color: darkcyan;
+    -webkit-box-shadow: 0 0 30px 10px darkblue;
+            box-shadow: 0 0 30px 10px darkblue;
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+  }
+  .section6-inner-form button:focus {
+    outline: none;
+  }
+  .section6-inner-form .sum {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: white;
+    margin-top: 40px;
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    padding: 0 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(0, 0, 139, 0.644);
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 /*# sourceMappingURL=main.css.map */
